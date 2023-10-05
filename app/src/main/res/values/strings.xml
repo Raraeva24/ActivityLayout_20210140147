@@ -4,4 +4,10 @@
     <string name="nama">Nama Pengguna</string>
     <string name="nomortelepon">081234323432</string>
     <string name="button">KLIK</string>
+    <string name="tapp_name">Tablelayout</string>
+    <string name="LoginForm">Login Form</string>
+    <string name="tUsername">Name</string>
+    <string name="tPhone">Phone</string>
+    <string name="tlogo">Icon LogIn</string>
+    <string name="taddress">Address</string>
 </resources>

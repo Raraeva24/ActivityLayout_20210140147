@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    tools:context=".TableLayout">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal">
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="145dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:src="@tools:sample/avatars" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center|left"
+        tools:layout_marginRight="50dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_marginStart="10dp"
+            android:layout_weight="80"
+            android:paddingLeft="30dp"
+            android:text="@string/tUsername"
+            android:textSize="16sp"
+            tools:textColor="#000000"></TextView>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="-5"
+            android:background="@color/white"
+            android:inputType="text"
+            android:padding="5dp"
+            android:text="Enter Your Name"
+            android:textColor="#000000"></EditText>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|left"
+        tools:layout_marginRight="50dp">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="900"
+            android:paddingLeft="30dp"
+            android:text="@string/tPhone"
+            android:textColor="#000000"
+            android:textSize="16sp"></TextView>
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_height="48dp"
+            android:layout_column="1"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="-45"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:padding="5dp"
+            android:text="Enter Phone Number"></EditText>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|left"
+        tools:layout_marginRight="50dp">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="600"
+            android:paddingLeft="30dp"
+            android:text="@string/taddress"
+            android:textColor="#000000"
+            android:textSize="16sp"></TextView>
+
+        <EditText
+            android:id="@+id/address"
+            android:layout_height="48dp"
+            android:layout_column="1"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="-22"
+            android:importantForAutofill="no"
+            android:inputType="textEmailAddress"
+            android:padding="5dp"
+            android:text="Enter Your Address"></EditText>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/loginBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="68dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_span="2"
+            android:hint="@string/LoginForm"
+            android:importantForAutofill="no"
+            android:text="Submit"
+            android:textSize="20sp"
+            android:textStyle="bold"></Button>
+    </TableRow>
+
+</TableLayout>
