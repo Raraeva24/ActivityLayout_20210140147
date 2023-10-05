@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">ActivityLayout</string>
+    <string name="login">login</string>
+    <string name="nama">Nama Pengguna</string>
+    <string name="nomortelepon">081234323432</string>
+    <string name="button">KLIK</string>
 </resources>
